@@ -8,9 +8,13 @@ Docker-based sushi delivery application
 5. Проверьте: http://localhost:8080/api/sushi
    
    Управление:
+   
 docker-compose up -d - запуск
+
 docker-compose down - остановка
+
 docker ps - статус контейнеров
+
 docker logs sushi-app - логи приложения
 
 Основные команды API:
